@@ -1,0 +1,49 @@
+/*entete de la page */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* les listes du menu n'ont pas de puce ni de decalage */
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin-left: 2%;
+}
+.log {
+    margin-left: 4%;
+}
+#der {
+    margin-right: 40%;
+}
+/* affichage en ligne du menu niveau 1 */
+#logo {
+    cursor: pointer;
+}
+nav > ul {
+    display: flex;
+}
+ul > img {
+    margin: 0px;
+    z-index: 9999;
+}
+
+ul > #pre {
+    padding-top: 1%;
+    margin-left: 40%;
+}
+
+li {
+    padding-top: 1%;
+    margin-left: 50%;
+}
+li > a {
+    color: white;
+    text-decoration: none;
+}

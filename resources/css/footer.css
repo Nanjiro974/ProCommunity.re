@@ -1,0 +1,28 @@
+/*pied de page  */
+footer {
+    background-color: #3a3a3a;
+    color: aliceblue;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+.foot {
+    color: white;
+    text-decoration: none;
+}
+.foot:hover {
+    text-decoration: underline;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
