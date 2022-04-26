@@ -13,11 +13,17 @@ return [
     */
 
     'policies' => [
-        'forum' => TeamTeaTime\Forum\Policies\ForumPolicy::class,
+        // 'forum' => TeamTeaTime\Forum\Policies\ForumPolicy::class,
+        'forum' => App\Policies\CustomForumPolicy::class,
+        // 'thread'=>  App\Policies\CustomThreadPolicy::class,
+        // 'post'  =>  App\Policies\CustomPostPolicy::class,
         'model' => [
-            TeamTeaTime\Forum\Models\Category::class => TeamTeaTime\Forum\Policies\CategoryPolicy::class,
-            TeamTeaTime\Forum\Models\Thread::class => TeamTeaTime\Forum\Policies\ThreadPolicy::class,
-            TeamTeaTime\Forum\Models\Post::class => TeamTeaTime\Forum\Policies\PostPolicy::class,
+            // TeamTeaTime\Forum\Models\Category::class => TeamTeaTime\Forum\Policies\CategoryPolicy::class,
+            // TeamTeaTime\Forum\Models\Thread::class => TeamTeaTime\Forum\Policies\ThreadPolicy::class,
+            // TeamTeaTime\Forum\Models\Post::class => TeamTeaTime\Forum\Policies\PostPolicy::class,
+            TeamTeaTime\Forum\Models\Category::class => App\Policies\CustomCategoryPolicy::class,
+            TeamTeaTime\Forum\Models\Thread::class =>   App\Policies\CustomThreadPolicy::class,
+            TeamTeaTime\Forum\Models\Post::class =>     App\Policies\CustomPostPolicy::class,
         ],
     ],
 
