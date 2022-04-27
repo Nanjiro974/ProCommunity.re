@@ -22,6 +22,11 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::middleware(['auth','role:admin'])->group(function() {
+    Route::get('/private', function () {
+        return 'Bonjour Admin';
+});
+});
 
 // Forum::route('forum.index');
 // Forum::route('thread.show', $thread);

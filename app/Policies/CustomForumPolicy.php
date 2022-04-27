@@ -11,11 +11,11 @@ class CustomForumPolicy extends ForumPolicy
 {
     public function moveCategories($user): bool
     {
-        return false;
+        return true;
     }
     public function createCategories($user): bool
         {
-            return false;
+            return true;
         }
 
     // TODO: to delete

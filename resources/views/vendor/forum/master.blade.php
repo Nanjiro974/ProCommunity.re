@@ -176,9 +176,12 @@
     </style>
 </head>
 <body>
-    <nav class="v-navbar navbar navbar-expand-md navbar-light bg-white shadow-sm">
+    <nav class="v-navbar navbar navbar-expand-md navbar navbar-dark shadow-sm"style="background-color: #000000;">
         <div class="container">
-            <a class="navbar-brand" href="{{ url(config('forum.web.router.prefix')) }}">Anime Agile</a>
+        <a href="/" class="navbar-brand d-flex align-items-center ">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg> -->
+        <img id="logo" src="https://i.pinimg.com/564x/1c/23/2b/1c232b3fa3b4c90f0cb82448134804c1.jpg" width="70" height="70" alt="logo">
+        <strong>Anime Agile</strong></a>
             <button class="navbar-toggler" type="button" :class="{ collapsed: isCollapsed }" @click="isCollapsed = ! isCollapsed">
                 <span class="navbar-toggler-icon"></span>
             </button>
