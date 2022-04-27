@@ -15,7 +15,7 @@ return [
     'editing' => 'Sie bearbeiten :item',
     'generic_confirm' => 'Sind Sie sicher?',
     'home_title' => 'Forum',
-    'index' => 'Index',
+    'index' => 'Index general',
     'invalid_selection' => 'Ungültige Auswahl',
     'last_updated' => 'Letzte Änderung',
     'manage' => 'Manage',

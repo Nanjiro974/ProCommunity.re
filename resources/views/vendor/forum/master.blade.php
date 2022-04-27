@@ -178,7 +178,7 @@
 <body>
     <nav class="v-navbar navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
-            <a class="navbar-brand" href="{{ url(config('forum.web.router.prefix')) }}">Laravel Forum</a>
+            <a class="navbar-brand" href="{{ url(config('forum.web.router.prefix')) }}">Anime Agile</a>
             <button class="navbar-toggler" type="button" :class="{ collapsed: isCollapsed }" @click="isCollapsed = ! isCollapsed">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -230,7 +230,7 @@
     </nav>
 
     <div id="main" class="container">
-        @include('forum::partials.breadcrumbs')
+        <!-- @include('forum::partials.breadcrumbs') -->
         @include('forum::partials.alerts')
 
         @yield('content')
