@@ -9,6 +9,18 @@ use TeamTeaTime\Forum\Policies\CategoryPolicy;
 
 class CustomCategoryPolicy extends CategoryPolicy
 {
+    public function createThreads($user,$category): bool
+    {
+    
+        $role = $user->toArray()["role"];
+        if ($role == "admin") 
+        {
+            return true;
+        } 
+        else {
+            return false;
+             }
+    }  
 
     
 // TODO: to delete

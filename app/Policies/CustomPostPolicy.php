@@ -8,7 +8,32 @@ use Illuminate\Auth\Access\HandlesAuthorization;
 use TeamTeaTime\Forum\Policies\PostPolicy;;
 
 class CustomPostPolicy extends PostPolicy
-{}
+{
+    public function delete($user,$post): bool
+    {
+    
+        $role = $user->toArray()["role"];
+        if ($role == "admin") 
+        {
+            return true;
+        } 
+        else {
+            return $user->getKey() === $post->author_id;
+        } 
+}
+    public function restore($user,$post): bool
+    {
+    
+        $role = $user->toArray()["role"];
+        if ($role == "admin") 
+        {
+            return true;
+        } 
+        else {
+            return false;
+        } 
+}
+}
 
 // TODO: to delete
 // {

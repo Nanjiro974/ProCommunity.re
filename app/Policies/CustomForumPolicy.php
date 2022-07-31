@@ -11,13 +11,45 @@ class CustomForumPolicy extends ForumPolicy
 {
     public function moveCategories($user): bool
     {
-        return true;
-    }
-    public function createCategories($user): bool
+        // dd($user);
+        // dd($user->tokens());
+        // dd($user->toArray());
+        // dd($user->toArray()["role"]);
+        $role = $user->toArray()["role"];
+        if ($role == "admin") 
         {
             return true;
-        }
-
+        } 
+        else {
+            return false;
+             }
+        // if ($user->role() == "admin") {
+        // return true;
+    }
+    public function createCategories($user): bool
+    {
+    
+        $role = $user->toArray()["role"];
+        if ($role == "admin") 
+        {
+            return true;
+        } 
+        else {
+            return false;
+             }
+    }         
+    public function renameCategories($user): bool
+    {
+    
+        $role = $user->toArray()["role"];
+        if ($role == "admin") 
+        {
+            return true;
+        } 
+        else {
+            return false;
+             }
+    }
     // TODO: to delete
     // use HandlesAuthorization;
 
