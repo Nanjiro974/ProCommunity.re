@@ -34,7 +34,7 @@
                     <div class="col-xl-9 mx-auto">
                         <div class="cta-inner bg-faded text-center rounded">
                             <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">Un concepte</span>
+                                <span class="section-heading-upper">Un concept</span>
                                 <span class="section-heading-lower">Novateur</span>
                             </h2>
                             <p class="mb-0">Comme pour toute activité professionnelle, il est nécessaire d’acquérir des compétences spécifiques

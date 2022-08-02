@@ -60,9 +60,8 @@
             <div class="row">
                 <div class="col-sm-8 col-md-7 py-4">
                     <h4 class="text-white">A propos</h4>
-                    <p class="text-muted">Add some information about the album below, the author, or any other
-                        background context. Make it a few sentences long so folks can pick up some informative
-                        tidbits. Then, link them off to some social networking sites or contact information.</p>
+                    <p class="text-muted">ProCommunity.re est une plateforme d'échange permet aussi bien se renseigner sur un concept de marketing de réseau que de partager avis et expérience.
+                    Le but étant ici bien sur d'améliorer nos idées et de progresser.</p>
                 </div>
                 <div class="col-sm-4 offset-md-1 py-4">
                     <h4 class="text-white">Autentification</h4>

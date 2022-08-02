@@ -17,17 +17,12 @@
                                 <!-- Article main content -->
                                 <article class="col-sm-9 maincontent">
                                     <header class="page-header">
-                                        <h1 class="page-title">Contact us</h1>
+                                        <h1 class="page-title">Contactez moi</h1>
                                     </header>
 
                                     <p>
-                                        We’d love to hear from you. Interested in working together? Fill out the form below
-                                        with
-                                        some info about
-                                        your project and I will get back to you as soon as I can. Please allow a couple days
-                                        for
-                                        me
-                                        to respond.
+                                    Une question sur notre concepte?<br> Envie d'en savoir plus sur nous?<br>    
+                                    Pour me contacter, utilisez le formulaire contact ci-dessous. Je vous repondrais sous 48heures.
                                     </p>
                                     <br>
                                     <form>
