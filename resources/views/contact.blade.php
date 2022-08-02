@@ -21,7 +21,7 @@
                                     </header>
 
                                     <p>
-                                    Une question sur notre concepte?<br> Envie d'en savoir plus sur nous?<br>    
+                                    Une question sur notre concept?<br> Envie d'en savoir plus sur nous?<br>    
                                     Pour me contacter, utilisez le formulaire contact ci-dessous. Je vous repondrais sous 48heures.
                                     </p>
                                     <br>
