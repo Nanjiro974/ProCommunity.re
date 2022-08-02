@@ -38,7 +38,7 @@
                                 <span class="section-heading-lower">Novateur</span>
                             </h2>
                             <p class="mb-0">Comme pour toute activité professionnelle, il est nécessaire d’acquérir des compétences spécifiques
-                                 en cela nous vous vous offront La possibilité d'apprendre a nos coter et de bâtir une équipe pour multiplier vos revenu. 
+                                 en cela nous vous offrons la possibilité d'apprendre à nos cotés et de bâtir une équipe pour multiplier vos revenus. 
                                  C’est une profession qui rémunère à la hauteur de son investissement.</p>
                         </div>
                     </div>
