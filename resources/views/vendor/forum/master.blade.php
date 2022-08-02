@@ -151,12 +151,15 @@
                             @include('forum::partials.alerts')
 
                             @yield('content')
-                            
-                    
-                            <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="{{ route('register') }}">Créer un compte</a>
-                            <a class="btn btn-primary btn-xl" href="{{ route('login') }}">Se connecter</a>
-                        </div>
 
+                            @auth
+                            @endauth
+                            @guest
+                                <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl"
+                                        href="{{ route('register') }}">Créer un compte</a>
+                                    <a class="btn btn-primary btn-xl" href="{{ route('login') }}">Se connecter</a>
+                                </div>
+                            @endguest
                         </aside>
                         <!-- /Sidebar -->
 
